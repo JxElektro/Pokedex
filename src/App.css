@@ -1,0 +1,16 @@
+* {
+  font-family: roboto ,sans-serif;
+}
+
+.poke {
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 15px solid rgb(19, 19, 66);
+  border-radius: 25px;
+  box-shadow: 0 2px 3px #ccc;
+  height: 500px;
+}

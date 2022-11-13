@@ -1,12 +1,22 @@
-/* lest import Api from https://pokeapi.co/api/v2/pokemon/ditto/ 
+// Create a search bar component
+// Import React
+// Create a function called Search
+// Return a div with a class of search
+// Inside the div, create an input with a type of text and a placeholder of Search
+// Create a button with a type of submit
+// Export the Search component
+// Import the Search component into App.js
+// Render the Search component inside the App component
 
-import axios from 'axios';
+import React from "react";
 
-// Create a function to get the data from the API
-const getPokemon = async (pokemon) => {
-  const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
-  return response.data;
+const Search = () => {
+  return (
+    <div className="search">
+      <input type="text" placeholder="Search" />
+      <button type="submit">Submit</button>
+    </div>
+  );
 }
 
-// export this function to be used in other files
-export default getPokemon; */
+export default Search;
